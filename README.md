@@ -1,4 +1,10 @@
-# AngularCollection
+# CRUD With Angular 5 Using Array
+
+Author : Manav Pandya
+
+Blog   : asp-dotnet-mvc-tutorials.blogspot.com
+
+Email  : pandya.manav@gmail.com
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
 
