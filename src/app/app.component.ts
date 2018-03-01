@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component , OnInit } from '@angular/core';
 
 export class MyItems {
   Value: string;
@@ -9,7 +9,7 @@ export class MyItems {
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'Working With Array In Angular 5';
 
   IsForUpdate: boolean = false;
@@ -17,6 +17,8 @@ export class AppComponent {
   myItems: MyItems[] = new Array();
   newItem: any = {};
   updatedItem;
+
+  
 
   EditItem(i) {
     this.newItem.Value = this.myItems[i].Value;
